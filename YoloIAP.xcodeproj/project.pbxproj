@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA542451E9E7501002BD522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA542441E9E7501002BD522 /* main.m */; };
+		CFA542481E9E7501002BD522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA542471E9E7501002BD522 /* AppDelegate.m */; };
+		CFA5424B1E9E7501002BD522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5424A1E9E7501002BD522 /* ViewController.m */; };
+		CFA5424E1E9E7501002BD522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA5424C1E9E7501002BD522 /* Main.storyboard */; };
+		CFA542501E9E7501002BD522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA5424F1E9E7501002BD522 /* Assets.xcassets */; };
+		CFA542531E9E7501002BD522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA542511E9E7501002BD522 /* LaunchScreen.storyboard */; };
+		CFA5425E1E9E7501002BD522 /* YoloIAPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5425D1E9E7501002BD522 /* YoloIAPTests.m */; };
+		CFA542691E9E7502002BD522 /* YoloIAPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA542681E9E7502002BD522 /* YoloIAPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA5425A1E9E7501002BD522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA542381E9E7501002BD522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA5423F1E9E7501002BD522;
+			remoteInfo = YoloIAP;
+		};
+		CFA542651E9E7502002BD522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA542381E9E7501002BD522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA5423F1E9E7501002BD522;
+			remoteInfo = YoloIAP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA542401E9E7501002BD522 /* YoloIAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoloIAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA542441E9E7501002BD522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFA542461E9E7501002BD522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFA542471E9E7501002BD522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFA542491E9E7501002BD522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFA5424A1E9E7501002BD522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFA5424D1E9E7501002BD522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA5424F1E9E7501002BD522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA542521E9E7501002BD522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA542541E9E7501002BD522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA542591E9E7501002BD522 /* YoloIAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloIAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA5425D1E9E7501002BD522 /* YoloIAPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloIAPTests.m; sourceTree = "<group>"; };
+		CFA5425F1E9E7501002BD522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA542641E9E7502002BD522 /* YoloIAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloIAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA542681E9E7502002BD522 /* YoloIAPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloIAPUITests.m; sourceTree = "<group>"; };
+		CFA5426A1E9E7502002BD522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA5423D1E9E7501002BD522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA542561E9E7501002BD522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA542611E9E7502002BD522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA542371E9E7501002BD522 = {
+			isa = PBXGroup;
+			children = (
+				CFA542421E9E7501002BD522 /* YoloIAP */,
+				CFA5425C1E9E7501002BD522 /* YoloIAPTests */,
+				CFA542671E9E7502002BD522 /* YoloIAPUITests */,
+				CFA542411E9E7501002BD522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA542411E9E7501002BD522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA542401E9E7501002BD522 /* YoloIAP.app */,
+				CFA542591E9E7501002BD522 /* YoloIAPTests.xctest */,
+				CFA542641E9E7502002BD522 /* YoloIAPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA542421E9E7501002BD522 /* YoloIAP */ = {
+			isa = PBXGroup;
+			children = (
+				CFA542461E9E7501002BD522 /* AppDelegate.h */,
+				CFA542471E9E7501002BD522 /* AppDelegate.m */,
+				CFA542491E9E7501002BD522 /* ViewController.h */,
+				CFA5424A1E9E7501002BD522 /* ViewController.m */,
+				CFA5424C1E9E7501002BD522 /* Main.storyboard */,
+				CFA5424F1E9E7501002BD522 /* Assets.xcassets */,
+				CFA542511E9E7501002BD522 /* LaunchScreen.storyboard */,
+				CFA542541E9E7501002BD522 /* Info.plist */,
+				CFA542431E9E7501002BD522 /* Supporting Files */,
+			);
+			path = YoloIAP;
+			sourceTree = "<group>";
+		};
+		CFA542431E9E7501002BD522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA542441E9E7501002BD522 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFA5425C1E9E7501002BD522 /* YoloIAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA5425D1E9E7501002BD522 /* YoloIAPTests.m */,
+				CFA5425F1E9E7501002BD522 /* Info.plist */,
+			);
+			path = YoloIAPTests;
+			sourceTree = "<group>";
+		};
+		CFA542671E9E7502002BD522 /* YoloIAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA542681E9E7502002BD522 /* YoloIAPUITests.m */,
+				CFA5426A1E9E7502002BD522 /* Info.plist */,
+			);
+			path = YoloIAPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA5423F1E9E7501002BD522 /* YoloIAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA5426D1E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAP" */;
+			buildPhases = (
+				CFA5423C1E9E7501002BD522 /* Sources */,
+				CFA5423D1E9E7501002BD522 /* Frameworks */,
+				CFA5423E1E9E7501002BD522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoloIAP;
+			productName = YoloIAP;
+			productReference = CFA542401E9E7501002BD522 /* YoloIAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA542581E9E7501002BD522 /* YoloIAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA542701E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAPTests" */;
+			buildPhases = (
+				CFA542551E9E7501002BD522 /* Sources */,
+				CFA542561E9E7501002BD522 /* Frameworks */,
+				CFA542571E9E7501002BD522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA5425B1E9E7501002BD522 /* PBXTargetDependency */,
+			);
+			name = YoloIAPTests;
+			productName = YoloIAPTests;
+			productReference = CFA542591E9E7501002BD522 /* YoloIAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA542631E9E7502002BD522 /* YoloIAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA542731E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAPUITests" */;
+			buildPhases = (
+				CFA542601E9E7502002BD522 /* Sources */,
+				CFA542611E9E7502002BD522 /* Frameworks */,
+				CFA542621E9E7502002BD522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA542661E9E7502002BD522 /* PBXTargetDependency */,
+			);
+			name = YoloIAPUITests;
+			productName = YoloIAPUITests;
+			productReference = CFA542641E9E7502002BD522 /* YoloIAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA542381E9E7501002BD522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yolo;
+				TargetAttributes = {
+					CFA5423F1E9E7501002BD522 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					CFA542581E9E7501002BD522 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFA5423F1E9E7501002BD522;
+					};
+					CFA542631E9E7502002BD522 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFA5423F1E9E7501002BD522;
+					};
+				};
+			};
+			buildConfigurationList = CFA5423B1E9E7501002BD522 /* Build configuration list for PBXProject "YoloIAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA542371E9E7501002BD522;
+			productRefGroup = CFA542411E9E7501002BD522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA5423F1E9E7501002BD522 /* YoloIAP */,
+				CFA542581E9E7501002BD522 /* YoloIAPTests */,
+				CFA542631E9E7502002BD522 /* YoloIAPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA5423E1E9E7501002BD522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA542531E9E7501002BD522 /* LaunchScreen.storyboard in Resources */,
+				CFA542501E9E7501002BD522 /* Assets.xcassets in Resources */,
+				CFA5424E1E9E7501002BD522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA542571E9E7501002BD522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA542621E9E7502002BD522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA5423C1E9E7501002BD522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA5424B1E9E7501002BD522 /* ViewController.m in Sources */,
+				CFA542481E9E7501002BD522 /* AppDelegate.m in Sources */,
+				CFA542451E9E7501002BD522 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA542551E9E7501002BD522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA5425E1E9E7501002BD522 /* YoloIAPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA542601E9E7502002BD522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA542691E9E7502002BD522 /* YoloIAPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA5425B1E9E7501002BD522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA5423F1E9E7501002BD522 /* YoloIAP */;
+			targetProxy = CFA5425A1E9E7501002BD522 /* PBXContainerItemProxy */;
+		};
+		CFA542661E9E7502002BD522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA5423F1E9E7501002BD522 /* YoloIAP */;
+			targetProxy = CFA542651E9E7502002BD522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA5424C1E9E7501002BD522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA5424D1E9E7501002BD522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA542511E9E7501002BD522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA542521E9E7501002BD522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA5426B1E9E7502002BD522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFA5426C1E9E7502002BD522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA5426E1E9E7502002BD522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoloIAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFA5426F1E9E7502002BD522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoloIAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFA542711E9E7502002BD522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoloIAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoloIAP.app/YoloIAP";
+			};
+			name = Debug;
+		};
+		CFA542721E9E7502002BD522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoloIAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoloIAP.app/YoloIAP";
+			};
+			name = Release;
+		};
+		CFA542741E9E7502002BD522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoloIAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoloIAP;
+			};
+			name = Debug;
+		};
+		CFA542751E9E7502002BD522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoloIAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoloIAP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA5423B1E9E7501002BD522 /* Build configuration list for PBXProject "YoloIAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA5426B1E9E7502002BD522 /* Debug */,
+				CFA5426C1E9E7502002BD522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA5426D1E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA5426E1E9E7502002BD522 /* Debug */,
+				CFA5426F1E9E7502002BD522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFA542701E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA542711E9E7502002BD522 /* Debug */,
+				CFA542721E9E7502002BD522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFA542731E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA542741E9E7502002BD522 /* Debug */,
+				CFA542751E9E7502002BD522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA542381E9E7501002BD522 /* Project object */;
+}
