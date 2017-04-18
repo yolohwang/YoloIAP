@@ -15,6 +15,7 @@
 		CFA542531E9E7501002BD522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA542511E9E7501002BD522 /* LaunchScreen.storyboard */; };
 		CFA5425E1E9E7501002BD522 /* YoloIAPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5425D1E9E7501002BD522 /* YoloIAPTests.m */; };
 		CFA542691E9E7502002BD522 /* YoloIAPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA542681E9E7502002BD522 /* YoloIAPUITests.m */; };
+		CFA542781E9E75D5002BD522 /* YoloPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA542771E9E75D5002BD522 /* YoloPurchase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CFA542641E9E7502002BD522 /* YoloIAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloIAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA542681E9E7502002BD522 /* YoloIAPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloIAPUITests.m; sourceTree = "<group>"; };
 		CFA5426A1E9E7502002BD522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA542761E9E75D5002BD522 /* YoloPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoloPurchase.h; sourceTree = "<group>"; };
+		CFA542771E9E75D5002BD522 /* YoloPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoloPurchase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CFA542471E9E7501002BD522 /* AppDelegate.m */,
 				CFA542491E9E7501002BD522 /* ViewController.h */,
 				CFA5424A1E9E7501002BD522 /* ViewController.m */,
+				CFA542761E9E75D5002BD522 /* YoloPurchase.h */,
+				CFA542771E9E75D5002BD522 /* YoloPurchase.m */,
 				CFA5424C1E9E7501002BD522 /* Main.storyboard */,
 				CFA5424F1E9E7501002BD522 /* Assets.xcassets */,
 				CFA542511E9E7501002BD522 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					CFA5423F1E9E7501002BD522 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = N6SM5649XD;
 						ProvisioningStyle = Automatic;
 					};
 					CFA542581E9E7501002BD522 = {
@@ -276,6 +282,7 @@
 				CFA5424B1E9E7501002BD522 /* ViewController.m in Sources */,
 				CFA542481E9E7501002BD522 /* AppDelegate.m in Sources */,
 				CFA542451E9E7501002BD522 /* main.m in Sources */,
+				CFA542781E9E75D5002BD522 /* YoloPurchase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6SM5649XD;
 				INFOPLIST_FILE = YoloIAP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeamobile.cn.xja2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +442,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6SM5649XD;
 				INFOPLIST_FILE = YoloIAP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Yolo.YoloIAP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeamobile.cn.xja2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +516,7 @@
 				CFA5426F1E9E7502002BD522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA542701E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAPTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				CFA542721E9E7502002BD522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA542731E9E7502002BD522 /* Build configuration list for PBXNativeTarget "YoloIAPUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				CFA542751E9E7502002BD522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
